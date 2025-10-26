@@ -42,7 +42,8 @@ export default function AuthProvider(props) {
                 // guard clause which just means that if there is no user then the code stops here and we don't do any data fetching or anything
                 throw Error('No user found')
             }
-            
+            console.log('Found User')
+
             // if we find a user, then fetch their data
         } catch (err) {
             console.log(err.message)
