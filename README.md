@@ -7,9 +7,7 @@ This project was created as part of my learning journey with Next.js and modern 
 
 ## 🚀 Live Demo
 
-🔗 [View Live on Netlify](https://your-app-name.netlify.app)
-
-*(Replace the link after deployment)*
+🔗 [View Live on Netlify](https://ktnotes.netlify.app/)
 
 ---
 
@@ -34,7 +32,7 @@ This application allows users to:
 | Database & Auth | [Firebase Firestore + Auth](https://firebase.google.com/) |
 | Deployment | [Netlify](https://www.netlify.com/) |
 | Markdown Parsing | [react-markdown](https://github.com/remarkjs/react-markdown) |
-| Styling | *(e.g. Tailwind CSS / custom CSS)* |
+| Styling | [Fanta CSS](https://github.com/jamezmca/fantacss) |
 
 ---
 
