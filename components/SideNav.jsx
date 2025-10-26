@@ -26,7 +26,7 @@ export default function SideNav(props) {
 
   useEffect(() => {
     // this is the code block that gets executed when our ref changes (so in this case it's when ther ef is assigned)
-    console.log(ref);
+    // console.log(ref);
     function handleClickOutside(event) {
       if (ref.current && !ref.current.contains(event.target)) {
         setShowNav(false);
@@ -78,7 +78,7 @@ export default function SideNav(props) {
           noteIds.map((note, idx) => {
             const [n, d] = note.split("__");
             const date = new Date(parseInt(d)).toString();
-            console.log(date);
+            // console.log(date);
             return (
               <button
                 onClick={() => {

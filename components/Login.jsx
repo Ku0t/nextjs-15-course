@@ -42,7 +42,7 @@ export default function Login() {
   
   const handleKeyDown = (e) => {
     if (e.key === "Enter") {
-      return handleAuthenticate();
+      return handleAuthUser();
     }
   };
 

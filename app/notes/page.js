@@ -25,7 +25,7 @@ export default function NotesPage() {
 
   function handleToggleViewer() {
     // isViewer = !isViewer
-    console.log("ISVIEWER: ", isViewer);
+    // console.log("ISVIEWER: ", isViewer);
     setIsViewer(!isViewer);
   }
 
@@ -115,7 +115,7 @@ export default function NotesPage() {
     fetchNote();
   }, [currentUser, searchParams]);
 
-  console.log("CURRENT USER: ", currentUser);
+  // console.log("CURRENT USER: ", currentUser);
   if (isLoadingUser) {
     return <h6 className="text-gradient">Loading...</h6>;
   }
